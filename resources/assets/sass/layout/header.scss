@@ -1,0 +1,39 @@
+@font-face {
+  font-family: headerFont;
+  src: url('/fonts/Avenida_Regular.otf');
+}
+
+.header {
+  background-color: white;
+  height: 115px;
+
+  &__left {
+     margin-top: 25px;
+     &__logo{
+       color: $light-blue;
+       font-family: headerFont;
+       font-size: 41px;
+       text-decoration: underline;
+       padding: 0 50px;
+     }
+   }
+  &__right {
+
+   &__nav {
+     margin-top: 45px;
+     posi
+     a {
+       color: #000;
+       font-size: 16px;
+       padding: 0 10px;
+       font-weight: bold;
+
+       &:hover {
+         color: $dark-red;
+         text-decoration: none;
+       }
+     }
+
+   }
+  }
+}

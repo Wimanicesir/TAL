@@ -19,6 +19,10 @@
     @yield('aimeos_styles')
 </head>
 <body>
+<<<<<<< HEAD
+=======
+
+>>>>>>> fd4428ab6bd152a6b37e84c50535725fd6ac0fb3
 @include('layout.header')
 
 <div class="col-xs-12">

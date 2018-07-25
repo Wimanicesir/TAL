@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+  $params = app( '\Aimeos\Shop\Base\Page' )->getSections('home');
+  return \View::make('app', $params);
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

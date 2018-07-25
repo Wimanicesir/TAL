@@ -24,6 +24,7 @@
 
 .header__right__nav {
   margin-top: 45px;
+  float: right;
 }
 
 .header__right__nav a {
@@ -36,6 +37,15 @@
 .header__right__nav a:hover {
   color: #C73838;
   text-decoration: none;
+}
+
+.header__cart {
+  margin-top: 37px;
+  margin-left: -2em;
+}
+
+.header__cart .basket-mini {
+  background-color: #009ED8;
 }
 
 /*!

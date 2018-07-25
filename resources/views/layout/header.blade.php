@@ -11,10 +11,17 @@
             <span class="header__left__logo"><a href="{{ url('/') }}">The Animation Library</a></span>
         </div>
     </div>
+<<<<<<< HEAD
     <div class="col-sm-4 col-md-4 col-lg-4">
         <div class="header__right">
             <nav class="header__right__nav">
                 <a href="{{ url("webshop") }}">Shop</a>
+=======
+    <div class="col-sm-4 col-md-6 col-lg-6">
+        <div class="header__right">
+            <nav class="header__right__nav">
+                <a href="#">Shop</a>
+>>>>>>> 2c2a704a8b5ae1879fe575ae3828f2b661998344
                 <a href="#">Freebies</a>
                 <a href="#">Tips & Tricks</a>
                 <a href="#">Contact</a>

@@ -21,7 +21,7 @@
 
    &__nav {
      margin-top: 45px;
-     posi
+     float: right;
      a {
        color: #000;
        font-size: 16px;
@@ -35,5 +35,12 @@
      }
 
    }
+  }
+  &__cart {
+    margin-top: 37px;
+    margin-left: -2em;
+    .basket-mini{
+      background-color: $light-blue;
+    }
   }
 }

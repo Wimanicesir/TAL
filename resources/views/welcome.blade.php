@@ -17,32 +17,33 @@
     </head>
     <body>
     @include('layout.header')
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
+    <div class="social">
+        <div class="social__facebook">
+            <img src="{{asset('images/icons/fb.png')}}">
         </div>
+        <div class="social__youtube">
+            <img src="{{asset('images/icons/yt.png')}}">
+        </div>
+        <div class="social__pinterest">
+            <img src="{{asset('images/icons/pin.png')}}">
+        </div>
+        <div class="social__facebook">
+            <img src="{{asset('images/icons/insta.png')}}">
+        </div>
+    </div>
+    <div class="welcome__splash">
+        <div class="welcome__splash__title">
+            <h2>The Animation <br> library</h2>
+        </div>
+        <div class="welcome__splash__button">
+            <button>Explore</button>
+        </div>
+    </div>
+    <div class="welcome__intro">
+        <div class="welcome__intro__title">
+            <h2>Animating has never <br> been so easy</h2>
+        </div>
+    </div>
     <script
             src="https://code.jquery.com/jquery-1.12.4.js"
             integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="

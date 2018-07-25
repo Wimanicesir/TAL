@@ -5,6 +5,85 @@
   src: url("/fonts/Avenida_Regular.otf");
 }
 
+.welcome__splash {
+  background: #009ED8;
+}
+
+.welcome__splash__title {
+  padding-top: 150px;
+}
+
+.welcome__splash__title h2 {
+  font-family: headerFont;
+  color: #fbfd36;
+  font-size: 80px;
+  letter-spacing: 0.3em;
+  text-align: center;
+  text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px 1px;
+}
+
+.welcome__splash__button {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 150px;
+}
+
+.welcome__splash__button button {
+  background-color: orange;
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px 40px;
+}
+
+.welcome__intro {
+  background-color: #0c5282;
+}
+
+.welcome__intro__title h2 {
+  padding-top: 100px;
+  font-family: Avenir;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-size: 40px;
+  color: #fbfd36;
+  line-height: 60px;
+}
+
+.social {
+  position: fixed;
+  right: 45px;
+  top: 160px;
+}
+
+.social img {
+  height: 45px;
+  width: 45px;
+  margin-bottom: 12px;
+}
+
+.aimeos .btn-primary,
+.aimeos .btn-primary:active {
+  background-color: #009ED8 !important;
+  border: solid 1px #0c5282 !important;
+}
+
+.catalog-filter-search .value {
+  border-color: #009ED8 !important;
+  border-right: none;
+  margin: 0;
+}
+
+.catalog-filter-search .reset {
+  border-color: #009ED8 !important;
+}
+
+@font-face {
+  font-family: headerFont;
+  src: url("/fonts/Avenida_Regular.otf");
+}
+
 .header {
   background-color: white;
   height: 115px;
@@ -24,6 +103,7 @@
 
 .header__right__nav {
   margin-top: 45px;
+  float: right;
 }
 
 .header__right__nav a {
@@ -36,6 +116,15 @@
 .header__right__nav a:hover {
   color: #C73838;
   text-decoration: none;
+}
+
+.header__cart {
+  margin-top: 37px;
+  margin-left: -2em;
+}
+
+.header__cart .basket-mini {
+  background-color: #009ED8;
 }
 
 /*!

@@ -1,0 +1,51 @@
+@font-face {
+  font-family: headerFont;
+  src: url('/fonts/Avenida_Regular.otf');
+}
+
+.welcome {
+  &__splash{
+    background: $light-blue;
+    &__title{
+      padding-top: 150px;
+      h2{
+        font-family: headerFont;
+        color: $light-yellow;
+        font-size: 80px;
+        letter-spacing: 0.3em;
+        text-align: center;
+        text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px 1px;
+      }
+    }
+    &__button{
+      text-align: center;
+      margin-top: 50px;
+      padding-bottom: 150px;
+      button{
+        background-color: orange;
+        border: none;
+        color: black;
+        font-weight: bold;
+        padding: 10px 40px;
+      }
+
+    }
+
+  }
+  &__intro{
+    background-color: $dark-blue;
+    &__title{
+      h2{
+        padding-top: 100px;
+        font-family: Avenir;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 0.2em;
+        font-size: 40px;
+        color: $light-yellow;
+        line-height: 60px;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,15 @@
+.aimeos .btn-primary,
+.aimeos .btn-primary:active {
+  background-color: $light-blue !important;
+  border: solid 1px $dark-blue !important;
+}
+
+.catalog-filter-search .value {
+  border-color: $light-blue !important;
+  border-right: none;
+  margin: 0;
+}
+
+.catalog-filter-search .reset {
+  border-color: $light-blue !important;
+}

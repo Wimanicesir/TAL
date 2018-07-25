@@ -5,8 +5,16 @@
 // Variables
 @import "variables";
 
-// Layout
+// Welcome page
+@import "welcome";
 
+// Social buttons
+@import "layout/social";
+
+// Shop
+@import "shop/shop";
+
+// Layout
 @import "layout/header";
 
 // Bootstrap

@@ -22,3 +22,14 @@
 
 // Helper functions
 @import "layout/helpers";
+
+// @Todo: Add css through dependency
+// Dependencies
+@import "~nouislider/distribute/nouislider.css";
+
+// COMPONENTS
+@import "components/slider";
+
+// BACKEND
+@import "backend/backend";
+

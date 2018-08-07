@@ -1,0 +1,5 @@
+li.nav-item.stock,
+li.nav-item.physical {
+  display: none !important;
+}
+

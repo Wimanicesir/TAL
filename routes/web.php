@@ -15,6 +15,10 @@ Route::get('/', function () {
   $params = app( '\Aimeos\Shop\Base\Page' )->getSections( 'home' );
     return view('welcome',$params);
 });
+Route::get('/test', function () {
+  $params = app( '\Aimeos\Shop\Base\Page' )->getSections( 'catalog-list' );
+  return view('shop/list',$params);
+});
 
 Auth::routes();
 

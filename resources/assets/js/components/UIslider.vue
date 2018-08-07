@@ -1,0 +1,19 @@
+<template>
+    <div id="slider"></div>
+</template>
+
+<script>
+    window.onload = function(){
+      var noUiSlider = window.NoUISlider;
+      var slider = document.getElementById('slider');
+
+      noUiSlider.create(slider, {
+        start: [20, 80],
+        connect: true,
+        range: {
+          'min': 0,
+          'max': 100
+        }
+      });
+    };
+</script>

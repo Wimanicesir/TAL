@@ -13,3 +13,10 @@
 .catalog-filter-search .reset {
   border-color: $light-blue !important;
 }
+
+.aimeos a:link:not(.btn), .aimeos a:visited:not(.btn){
+  color: $light-blue !important;
+}
+.catalog-filter-supplier, .catalog-filter-attribute{
+  display:none !important;
+}

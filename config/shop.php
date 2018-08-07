@@ -26,6 +26,9 @@ return [
 		// 'checkout-confirm' => [ 'checkout/confirm' ],
 		// 'checkout-index' => [ 'checkout/standard' ],
 		// 'checkout-update' => [ 'checkout/update' ],
+    'basket-index' => array( 'locale/select','basket/standard','basket/related' ),
+    'catalog-detail' => array( 'locale/select','basket/mini','catalog/stage','catalog/detail','catalog/session' ),
+    'catalog-list' => array( 'locale/select','basket/mini','catalog/filter','catalog/stage','catalog/lists' ),
     'home' => array('basket/mini','catalog/session'),
 
   ],
@@ -59,6 +62,16 @@ return [
 				'content' => [
 					 'baseurl' => config( 'app.url' ) . '/',
 				],
+        'locale' => array(
+          'select' => array(
+            'currency' => array(
+              'param-name' => 'currency',
+            ),
+            'language' => array(
+              'param-name' => 'locale',
+            ),
+          ),
+        ),
 				'template' => [
 					// 'baseurl' => public_path( 'packages/aimeos/shop/themes/elegance' ),
 				],

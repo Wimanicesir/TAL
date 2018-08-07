@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @yield('aimeos_header')
-    <title>Laravel</title>
+    <title>The Animation Library</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -19,15 +19,11 @@
     @yield('aimeos_styles')
 </head>
 <body>
-<<<<<<< HEAD
-=======
-
->>>>>>> fd4428ab6bd152a6b37e84c50535725fd6ac0fb3
 @include('layout.header')
-
-<div class="col-xs-12">
+<div class="col-xs-12"  id="app">
     @yield('aimeos_nav')
     @yield('aimeos_stage')
+    <slider></slider>
     @yield('aimeos_body')
     @yield('aimeos_aside')
     @yield('content')
@@ -35,6 +31,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="{{url('js/app.js')}}"></script>
 @yield('aimeos_scripts')
 </body>
 </html>

@@ -20,3 +20,31 @@
 .catalog-filter-supplier, .catalog-filter-attribute{
   display:none !important;
 }
+.catalog-filter-tree .catalog-filter-count{
+  width: 33% !important;
+  position: absolute !important;
+  top: 100px !important;
+}
+
+#sidepanel {
+  background-color: #E8E8EE;
+  width: 30%;
+  position: absolute;
+  top: 142px;
+
+  h2,a{
+    border: none;
+  }
+  h2{
+    width: 100%;
+
+  }
+  h2:first-child{
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+  }
+  #slider{
+    margin: 30px auto;
+  }
+
+}

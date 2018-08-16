@@ -341,6 +341,124 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   line-height: 60px;
 }
 
+.welcome__intro__grid {
+  padding-bottom: 80px;
+  padding-top: 50px;
+}
+
+.welcome__intro__grid .col-lg-2 {
+  margin-bottom: 2px;
+  margin-right: 5px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+}
+
+.welcome__intro__grid__description {
+  color: white;
+  width: 230px;
+  height: 230px;
+  background-color: #ff5657;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 85px;
+}
+
+.welcome__intro__grid__illustration {
+  width: 230px;
+  height: 230px;
+}
+
+.welcome__intro__grid__illustration img {
+  width: 100%;
+  height: 100%;
+}
+
+.welcome__promotion p {
+  font-size: 16px;
+}
+
+.welcome__promotion__cta {
+  display: inline-block;
+  background-color: white;
+  padding: 100px 0;
+}
+
+.welcome__promotion__cta h2 {
+  font-size: 93px;
+  font-weight: 700;
+  letter-spacing: 7.35px;
+  text-align: center;
+  color: #C73838;
+}
+
+.welcome__promotion__cta h3 {
+  font-size: 49px;
+  font-weight: 700;
+  letter-spacing: 7.35px;
+  text-align: center;
+  color: #C73838;
+}
+
+.welcome__promotion__cta img {
+  width: 335px;
+  margin: 0 auto;
+  display: block;
+}
+
+.welcome__promotion__cta p {
+  text-align: center;
+  width: 50%;
+  margin: 20px auto;
+  color: black;
+}
+
+.welcome__promotion__newsletter {
+  display: inline-block;
+  width: 100%;
+  background-color: #51d0a1;
+  padding: 100px 0;
+}
+
+.welcome__promotion__newsletter h2,
+.welcome__promotion__newsletter h3,
+.welcome__promotion__newsletter h4 {
+  color: #fbfd36;
+  text-align: center;
+  font-weight: 700;
+}
+
+.welcome__promotion__newsletter h2 {
+  font-size: 101px;
+}
+
+.welcome__promotion__newsletter h3 {
+  font-size: 87px;
+  line-height: 46px;
+}
+
+.welcome__promotion__newsletter h4 {
+  font-size: 53px;
+}
+
+.welcome__promotion__newsletter p {
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.welcome__promotion__newsletter form {
+  text-align: center;
+}
+
+.welcome__promotion__newsletter input {
+  width: 80%;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
 .social {
   position: fixed;
   right: 45px;
@@ -377,6 +495,37 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 .catalog-filter-supplier,
 .catalog-filter-attribute {
   display: none !important;
+}
+
+.catalog-filter-tree .catalog-filter-count {
+  width: 33% !important;
+  position: absolute !important;
+  top: 100px !important;
+}
+
+#sidepanel {
+  background-color: #E8E8EE;
+  width: 30%;
+  position: absolute;
+  top: 142px;
+}
+
+#sidepanel h2,
+#sidepanel a {
+  border: none;
+}
+
+#sidepanel h2 {
+  width: 100%;
+}
+
+#sidepanel h2:first-child {
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+}
+
+#sidepanel #slider {
+  margin: 30px auto;
 }
 
 @font-face {
@@ -8781,10 +8930,25 @@ button.close {
   float: right;
 }
 
+.row-no-padding [class*="col-"] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 /*! nouislider - 11.1.0 - 2018-04-02 11:18:13 */
 
 #slider {
-  max-width: 200px;
+  width: 90%;
+}
+
+#slider-snap-value-lower {
+  float: left;
+  margin-left: 10px;
+}
+
+#slider-snap-value-upper {
+  float: right;
+  margin-right: 10px;
 }
 
 /* Functional styling;
@@ -9139,6 +9303,27 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   transform: translate(0, -50%);
   top: 50%;
   right: 120%;
+}
+
+.btn-red {
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+  background-color: #C73838;
+}
+
+.btn-red p {
+  padding-top: 12px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+.btn-red:hover {
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  background-color: #ff5657;
 }
 
 li.nav-item.stock,

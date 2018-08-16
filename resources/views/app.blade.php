@@ -23,7 +23,6 @@
 <div class="col-xs-12"  id="app">
     @yield('aimeos_nav')
     @yield('aimeos_stage')
-    <slider></slider>
     @yield('aimeos_body')
     @yield('aimeos_aside')
     @yield('content')

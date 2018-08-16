@@ -118,12 +118,12 @@ $enc = $this->encoder();
 			<!-- catalog.filter.csrf -->
 			<?= $this->csrf()->formfield(); ?>
 			<!-- catalog.filter.csrf -->
-
 			<?= $this->block()->get( 'catalog/filter/search' ); ?>
-			<?= $this->block()->get( 'catalog/filter/tree' ); ?>
-			<?= $this->block()->get( 'catalog/filter/attribute' ); ?>
-			<?= $this->block()->get( 'catalog/filter/supplier' ); ?>
-
+            <div id="sidepanel">
+                <h2>Filters</h2>
+              <?= $this->block()->get( 'catalog/filter/tree' ); ?>
+                <slider></slider>
+            </div>
 		</form>
 	</nav>
 

@@ -141,8 +141,44 @@
         width: 80%;
         height: 50px;
         margin-bottom: 25px;
+        padding-left: 10px;
+        border: 1px solid $dark-blue;
+      }
+      input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: $dark-blue;
+        font-weight: 700;
+      }
+      input::-moz-placeholder { /* Firefox 19+ */
+        color: $dark-blue;
+        font-weight: 700;
+      }
+      input:-ms-input-placeholder { /* IE 10+ */
+        color: $dark-blue;
+        font-weight: 700;
+      }
+      input:-moz-placeholder { /* Firefox 18- */
+        color: $dark-blue;
+        font-weight: 700;
       }
     }
 
+  }
+  &__tips {
+    background-color: $light-blue;
+
+    &__title{
+      h2{
+        color: $light-yellow;
+        text-align: center;
+        font-size: 64px;
+      }
+    }
+    &__blogteaser{
+      background-color: yellow;
+
+    img {
+      width: 100%;
+    }
+    }
   }
 }

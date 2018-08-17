@@ -457,6 +457,50 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   width: 80%;
   height: 50px;
   margin-bottom: 25px;
+  padding-left: 10px;
+  border: 1px solid #0c5282;
+}
+
+.welcome__promotion__newsletter input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #0c5282;
+  font-weight: 700;
+}
+
+.welcome__promotion__newsletter input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #0c5282;
+  font-weight: 700;
+}
+
+.welcome__promotion__newsletter input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #0c5282;
+  font-weight: 700;
+}
+
+.welcome__promotion__newsletter input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #0c5282;
+  font-weight: 700;
+}
+
+.welcome__tips {
+  background-color: #009ED8;
+}
+
+.welcome__tips__title h2 {
+  color: #fbfd36;
+  text-align: center;
+  font-size: 64px;
+}
+
+.welcome__tips__blogteaser {
+  background-color: yellow;
+}
+
+.welcome__tips__blogteaser img {
+  width: 100%;
 }
 
 .social {
@@ -9305,25 +9349,47 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   right: 120%;
 }
 
-.btn-red {
+.button {
   width: 150px;
   height: 50px;
   margin: 0 auto;
   display: block;
+  border: none;
+}
+
+.button p {
+  padding-top: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.btn-red {
   background-color: #C73838;
 }
 
 .btn-red p {
-  padding-top: 12px;
-  text-align: center;
   color: white;
-  font-size: 16px;
 }
 
 .btn-red:hover {
   -webkit-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease;
   background-color: #ff5657;
+}
+
+.btn-yellow {
+  background-color: #fbfd36;
+}
+
+.btn-yellow p {
+  color: #51d0a1;
+  font-weight: 700;
+}
+
+.btn-yellow:hover p {
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  color: black;
 }
 
 li.nav-item.stock,

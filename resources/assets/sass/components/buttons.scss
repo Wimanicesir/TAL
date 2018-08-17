@@ -1,17 +1,36 @@
-.btn-red{
+.button{
     width: 150px;
     height: 50px;
     margin: 0 auto;
     display: block;
-    background-color: $dark-red;
+    border: none;
     p{
         padding-top: 12px;
         text-align: center;
-        color: white;
         font-size: 16px;
+    }
+}
+.btn-red{
+    background-color: $dark-red;
+    p{
+        color: white;
     }
 }
 .btn-red:hover{
     transition: background-color 0.5s ease;
     background-color: $light-red;
-}   
+}
+.btn-yellow {
+    background-color: $light-yellow;
+    p{
+        color: $light-green;
+        font-weight: 700;
+    }
+}
+.btn-yellow:hover{
+    p{
+        transition: color 0.5s ease;
+        color: black;
+    }
+
+}
